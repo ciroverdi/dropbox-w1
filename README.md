@@ -13,4 +13,4 @@ Completed user stories:
  Notes:
  In the controllers if I enable the back button and the performSegueWithIdentifier I have some crashes. I would appreciate it if you could help me with some advices.
  
- 
+![Video Walkthrough](dropbox-w1.gif)
