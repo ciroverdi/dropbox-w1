@@ -14,7 +14,7 @@ class SignInRootViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        performSegueWithIdentifier("signInSegue", sender: self)
+//        performSegueWithIdentifier("signInSegue", sender: self)
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,6 +23,6 @@ class SignInRootViewController: UIViewController {
     }
     
     @IBAction func goBackButton(sender: AnyObject) {
-        dismissViewControllerAnimated(true, completion: nil)
+//        dismissViewControllerAnimated(true, completion: nil)
     }
 }

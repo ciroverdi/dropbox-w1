@@ -12,7 +12,7 @@ class CreateAccountRootViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        performSegueWithIdentifier("createAccountSegue", sender: self)
+//        performSegueWithIdentifier("createAccountSegue", sender: self)
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,6 +21,6 @@ class CreateAccountRootViewController: UIViewController {
     }
     
     @IBAction func goBackButton(sender: AnyObject) {
-        dismissViewControllerAnimated(true, completion: nil)
+//        dismissViewControllerAnimated(true, completion: nil)
     }
 }
